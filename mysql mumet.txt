@@ -1,0 +1,2 @@
+SELECT transaksi_kategori SUM(transaksi_nominal) AS total FROM transaksi GROUP BY transaksi_kategori;
+SELECT MONTH(transaksi_tanggal)=9, transaksi_kategori, SUM(transaksi_nominal) AS total FROM transaksi WHERE MONTH(transaksi_tanggal)=9 GROUP BY MONTH(transaksi_tanggal)=9, transaksi_kategori ORDER BY `transaksi`.`transaksi_kategori` ASC
