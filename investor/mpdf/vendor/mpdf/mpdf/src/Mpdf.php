@@ -1453,7 +1453,7 @@ class Mpdf implements \Psr\Log\LoggerAwareInterface
 		if ($default_font == '') {
 			if ($this->onlyCoreFonts) {
 				if (in_array(strtolower($this->defaultCSS['BODY']['FONT-FAMILY']), $this->mono_fonts)) {
-					$default_font = 'ccourier';
+					$default_font = 'inter';
 				} elseif (in_array(strtolower($this->defaultCSS['BODY']['FONT-FAMILY']), $this->sans_fonts)) {
 					$default_font = 'chelvetica';
 				} else {

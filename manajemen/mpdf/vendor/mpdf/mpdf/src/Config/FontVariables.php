@@ -49,6 +49,7 @@ class FontVariables
 			 */
 			'fonttrans' => [
 				'times' => 'timesnewroman',
+				'inter' => 'inter',
 				'courier' => 'couriernew',
 				'trebuchet' => 'trebuchetms',
 				'comic' => 'comicsansms',
